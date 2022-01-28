@@ -14,7 +14,7 @@ const Dashboard: React.FC = () => {
         onChangeText={(text) => setInput(text)}
         onSubmitEditing={() =>
           getData(
-            `http://api.weatherstack.com/current?access_key=f08bc09d329a425d2db0f1fd7fb6f2a0&query=${input}`,
+            `http://api.weatherstack.com/current?access_key=&query=${input}`,
             setData
           )
         }
